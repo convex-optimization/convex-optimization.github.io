@@ -14,11 +14,14 @@ avatar: /images/blank.png
 
 
 author: Nisheeth K. Vishnoi
-
+authorWebsite: https://www.cs.yale.edu/homes/vishnoi/Home.html
 
 chapters:
-    - title: Preliminaries
-    - title: Convexity 
+    - number: 2
+      title: Preliminaries
+
+    - number: 3
+      title: Convexity 
 
 copyright: All copyrights held by the author and publishers extend to these pre-publication drafts. 
 

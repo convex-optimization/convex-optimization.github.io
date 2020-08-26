@@ -23,7 +23,7 @@
 
             <div class="site-info">
               <h1 class="site-name"><a href="{{ site.baseurl }}/"><b>{{ site.name }}</b></a></h1>
-              <h3><b>{{ site.author }}</b></h3>
+              <h3 style="text-align:center;"><a href="{{ site.authorWebsite }}/">{{ site.author }}</a></h3>
               <!-- <p class="site-description">{{ site.description }}</p>  -->
             </div>
 
@@ -56,7 +56,7 @@
           {% for chapter in site.chapters %}
           <div style='width:100%; height:auto;'>
           	<ul>
-          		<li> {{ chapter.title }} </li>
+          		<li>Chapter {{ chapter.number}} - {{ chapter.title }} </li>
           	</ul>
           </div>
 
@@ -68,14 +68,14 @@
 
 
       <div class="wrapper-main">
-          <div style="margin-bottom:3cm;">       
+        <div id="main" role="main" class="container">
           <h2> Copyrights and Citation</h2>
           {{ site.copyright }}
         </div>
       </div>
 
       <div class="wrapper-main">
-          <div style="margin-bottom:3cm;">       
+        <div id="main" role="main" class="container">
           <h2> Errata</h2>
           {{ site.errata }}
         </div>
