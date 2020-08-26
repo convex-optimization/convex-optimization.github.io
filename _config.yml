@@ -1,0 +1,109 @@
+#
+# This file contains configuration flags to customize your site
+#
+
+# Name of your site (displayed in the header)
+name: Algorithms for Convex Optimization
+
+# Short bio or description (displayed in the header)
+description: Convex optimization studies the problem of minimizing convex functions over convex sets. Convexity, and its numerous implications, has been used to come up with efficient algorithms for many classes of convex programming problems. Consequently, this area has broadly impacted science and engineering. In the last few years, convex optimization methods have revolutionized algorithm design, both for discrete and continuous optimization problems. The fastest known algorithms for problems such as maximum flow in graphs, maximum matching in bipartite graphs, and submodular function minimization involve an essential and nontrivial use of convex optimization techniques such as gradient descent, mirror descent, interior point methods, and cutting plane methods. Convex optimization methods have also been used to design counting problems over discrete objects such as spanning trees. On the other hand, convex optimization methods are at the core of many modern machine learning algorithms. The demand for convex optimization methods, driven by larger and increasingly complex input instances, has also significantly pushed the state of the art of convex optimization itself. Thus, there is an increasing need to understand convex optimization methods among students and researchers in theoretical computer science, discrete optimization, and machine learning. The goal of this book is to enable a reader to gain an in depth understanding of convex optimization methods. The emphasis is on deriving various convex optimization methods in from “first principles” and establishing precise running time bounds in terms of the input length (and not just on the number of iterations). Given the broad applicability of these methods, it would be impossible for any single book to show the applications of these methods to all of them. This book shows applications to fast algorithms for various discrete optimization and counting problems. These applications also serve the purpose of illustrating a rather surprising and, in progress, “bridge” between continuous and discrete optimization.
+
+
+# URL of your avatar or profile pic (you could use your GitHub profile pic)
+avatar: /images/blank.png
+
+
+author: Nisheeth K. Vishnoi
+
+
+chapters:
+    - title: Preliminaries
+    - title: Convexity 
+
+copyright: All copyrights held by the author and publishers extend to these pre-publication drafts. 
+
+errata: Feedback, typo corrections, and comments are welcome and should be sent to .... 
+
+#
+# Flags below are optional
+#
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  dribbble:
+  email:
+  facebook:
+  flickr:
+  github:
+  instagram:
+  linkedin: 
+  pinterest:
+  rss:
+  twitter:
+  stackoverflow: 
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/
+  playconsole:
+
+
+# Enter your Disqus shortname (not your username) to enable commenting on posts
+# You can find your shortname on the Settings page of your Disqus account
+disqus: 
+
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+# google_analytics: UA-43339302-11
+
+# Your website URL (e.g. http://amitmerchant1990.github.io or http://www.amitmerchant.com)
+# Used for Sitemap.xml and your RSS feed
+#url: http://www.amitmerchant.com/reverie
+#enforce_ssl: https://www.amitmerchant.com/reverie
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (http://yourusername.github.io/repository-name)
+# and NOT your User repository (http://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+#baseurl: ""
+
+#
+# !! You don't need to change any of the configuration flags below !!
+#
+
+permalink: /:title/
+
+# The release of Jekyll Now that you're using
+version: v1.2.0
+
+# Jekyll 3 now only supports Kramdown for Markdown
+kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
+  input: GFM
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :expanded # You might prefer to minify using :compressed
+
+# Use the following plug-ins
+plugins:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+include: ['_pages']
+
+paginate: 6
+paginate_path: /page:num/
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+
