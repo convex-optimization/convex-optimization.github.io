@@ -17,6 +17,9 @@ author: Nisheeth K. Vishnoi
 authorWebsite: https://www.cs.yale.edu/homes/vishnoi/Home.html
 
 chapters:
+    - number: 1
+      title: Bridging continuous and discrete optimization
+      
     - number: 2
       title: Preliminaries
 
