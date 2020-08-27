@@ -38,7 +38,7 @@ chapters:
       title: Gradient Descent
    
     - number: 7
-      title: Mirror Descent and the Multiplicative Weights Update Method
+      title: Mirror Descent and  Multiplicative Weights Update 
    
     - number: 8
       title: Accelerated Gradient Descent
@@ -47,13 +47,13 @@ chapters:
       title: Newton’s Method
    
     - number: 10
-      title: A Path Following Interior Point Method for Linear Programming
+      title: An Interior Point Method for Linear Programming
    
     - number: 11
       title: Variants of the Interior Point Method and Self-Concordance
    
     - number: 12
-      title: Cutting Plane and Ellipsoid Methods for Linear Programming
+      title: Ellipsoid Method for Linear Programming
    
     - number: 13
       title: Convex Programming using the Ellipsoid Method
