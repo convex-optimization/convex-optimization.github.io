@@ -1,4 +1,4 @@
-#
+d#
 # This file contains configuration flags to customize your site
 #
 
@@ -60,7 +60,7 @@ chapters:
 
 copyright: This material will be published by Cambridge University Press as Algorithms for Convex Optimization by Nisheeth K. Vishnoi. This pre-publication version is free to view and download for personal use only. Not for re-distribution, re-sale or use in derivative works. &#169; Nisheeth K. Vishnoi 2020.
 
-errata: Feedback, typo corrections, and comments are welcome and should be sent to the author. 
+errata: Feedback, corrections, and comments are welcome and should be emailed to the author. 
 
 #
 # Flags below are optional
