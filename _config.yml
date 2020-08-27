@@ -6,7 +6,7 @@
 name: Algorithms for Convex Optimization
 
 # Short bio or description (displayed in the header)
-description: Convex optimization studies the problem of minimizing convex functions over convex sets. Convexity, and its numerous implications, has been used to come up with efficient algorithms for many classes of convex programming problems. Consequently, this area has broadly impacted science and engineering.<br>In the last few years, convex optimization methods have revolutionized algorithm design, both for discrete and continuous optimization problems. The fastest known algorithms for problems such as maximum flow in graphs, maximum matching in bipartite graphs, and submodular function minimization involve an essential and nontrivial use of convex optimization techniques such as gradient descent, mirror descent, interior point methods, and cutting plane methods. Convex optimization methods have also been used to design counting problems over discrete objects such as spanning trees. On the other hand, convex optimization methods are at the core of many modern machine learning algorithms. The demand for convex optimization methods, driven by larger and increasingly complex input instances, has also significantly pushed the state of the art of convex optimization itself. Thus, there is an increasing need to understand convex optimization methods among students and researchers in theoretical computer science, discrete optimization, and machine learning. The goal of this book is to enable a reader to gain an in depth understanding of convex optimization methods. The emphasis is on deriving various convex optimization methods in from “first principles” and establishing precise running time bounds in terms of the input length (and not just on the number of iterations). Given the broad applicability of these methods, it would be impossible for any single book to show the applications of these methods to all of them. This book shows applications to fast algorithms for various discrete optimization and counting problems. These applications also serve the purpose of illustrating a rather surprising and, in progress, “bridge” between continuous and discrete optimization.
+description: Convex optimization studies the problem of minimizing convex functions over convex sets. Convexity, and its numerous implications, has been used to come up with efficient algorithms for many classes of convex programming problems. Consequently, this area has broadly impacted science and engineering.<br> <br> In the last few years, convex optimization methods have revolutionized algorithm design, both for discrete and continuous optimization problems. The fastest known algorithms for problems such as maximum flow in graphs, maximum matching in bipartite graphs, and submodular function minimization involve an essential and nontrivial use of convex optimization techniques such as gradient descent, mirror descent, accelerated gradient descent, interior point methods, and cutting plane methods. Convex optimization methods have also been used to design counting problems over discrete objects such as spanning trees. On the other hand, convex optimization methods are at the core of many modern machine learning algorithms. The demand for convex optimization methods, driven by larger and increasingly complex input instances, has also significantly pushed the state of the art of convex optimization itself.  <br> <br> The goal of this book is to enable a reader to gain an in depth understanding of convex optimization methods. The emphasis is on deriving various convex optimization methods in from “first principles” and establishing precise running time bounds in terms of the input length. This book shows applications to fast algorithms for various discrete optimization and counting problems. These applications also serve the purpose of illustrating a rather surprising and, in progress, “bridge” between continuous and discrete optimization.
 
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
@@ -25,10 +25,42 @@ chapters:
 
     - number: 3
       title: Convexity 
+      
+    - number: 4
+      title: Convex Programming and Efficiency 
+      
+    - number: 5
+      title: Duality and Optimality
+   
+    - number: 6
+      title: Gradient Descent
+   
+    - number: 7
+      title: Mirror Descent and the Multiplicative Weights Update Method
+   
+    - number: 8
+      title: Accelerated Gradient Descent
+   
+    - number: 9
+      title: Newton’s Method
+   
+    - number: 10
+      title: A Path Following Interior Point Method for Linear Programming
+   
+    - number: 11
+      title: Variants of the Interior Point Method and Self-Concordance
+   
+    - number: 12
+      title: Cutting Plane and Ellipsoid Methods for Linear Programming
+   
+    - number: 13
+      title: Convex Programming using the Ellipsoid Method
+   
+      
 
-copyright: All copyrights held by the author and publishers extend to these pre-publication drafts. 
+copyright: This material will be published by Cambridge University Press as Algorithms for Convex Optimization by Nisheeth K. Vishnoi. This pre-publication version is free to view and download for personal use only. Not for re-distribution, re-sale or use in derivative works. &#169; Nisheeth K. Vishnoi 2020.
 
-errata: Feedback, typo corrections, and comments are welcome and should be sent to .... 
+errata: Feedback, typo corrections, and comments are welcome and should be sent to the author. 
 
 #
 # Flags below are optional
