@@ -12,6 +12,8 @@ description: Convex optimization studies the problem of minimizing convex functi
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: images/blank.png
 
+pdf: ACO.pdf
+
 
 author: Nisheeth K. Vishnoi
 authorWebsite: https://www.cs.yale.edu/homes/vishnoi/Home.html
