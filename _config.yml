@@ -21,42 +21,55 @@ authorWebsite: https://www.cs.yale.edu/homes/vishnoi/Home.html
 chapters:
     - number: 1
       title: Bridging continuous and discrete optimization
+      description: In this chapter we review the basic mathematical preliminaries and tools required for this book. These include some standard notion and facts from multivariate calculus, linear algebra, geometry, topology, dynamical systems, and graph theory.
       
     - number: 2
       title: Preliminaries
+      description: In this chapter we review the basic mathematical preliminaries and tools required for this book. These include some standard notion and facts from multivariate calculus, linear algebra, geometry, topology, dynamical systems, and graph theory.
 
     - number: 3
       title: Convexity 
+      description: In this chapter ...
       
     - number: 4
       title: Convex Programming and Efficiency 
+      description: In this chapter ...
       
     - number: 5
       title: Duality and Optimality
+      description: In this chapter ...
    
     - number: 6
       title: Gradient Descent
+      description: In this chapter ...
    
     - number: 7
       title: Mirror Descent and  Multiplicative Weights Update 
+      description: In this chapter ...
    
     - number: 8
       title: Accelerated Gradient Descent
+      description: In this chapter ...
    
     - number: 9
       title: Newton’s Method
+      description: In this chapter ...
    
     - number: 10
       title: An Interior Point Method for Linear Programming
+      description: In this chapter ...
    
     - number: 11
       title: Variants of the Interior Point Method and Self-Concordance
+      description: In this chapter ...
    
     - number: 12
       title: Ellipsoid Method for Linear Programming
+      description: In this chapter ...
    
     - number: 13
       title: Convex Programming using the Ellipsoid Method
+      description: In this chapter ...
    
       
 
