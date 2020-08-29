@@ -21,55 +21,60 @@ authorWebsite: https://www.cs.yale.edu/homes/vishnoi/Home.html
 chapters:
     - number: 1
       title: Bridging continuous and discrete optimization
-      description: In this chapter we review the basic mathematical preliminaries and tools required for this book. These include some standard notion and facts from multivariate calculus, linear algebra, geometry, topology, dynamical systems, and graph theory.
+      description: This chapter presents the interplay between continuous and discrete optimization. The motivating example is that of the maximum flow problem. It also traces the history of linear programming -- from the ellipsoid method to modern interior point methods. It ends with some of the recent successes of the ellipsoid method for general convex programming problems such as the maximum entropy problem. 
       
     - number: 2
       title: Preliminaries
       description: In this chapter we review the basic mathematical preliminaries and tools required for this book. These include some standard notion and facts from multivariate calculus, linear algebra, geometry, topology, dynamical systems, and graph theory.
 
+
     - number: 3
       title: Convexity 
-      description: In this chapter ...
+      description: In this chapter we introduce convex sets, various notions of convexity, and show the power that comes along with convexity: convex sets have separating hyperplanes, sub- gradients exist, and locally optimal solutions of convex functions are globally optimal.
       
     - number: 4
       title: Convex Programming and Efficiency 
-      description: In this chapter ...
+      description: In this chapter we formalize the convex programming problem and discuss what it means to solve it efficiently as a function of the representation length of the input and the accuracy.
       
     - number: 5
       title: Duality and Optimality
-      description: In this chapter ...
+      description: In this chapter we introduce the powerful notion of Lagrangian duality. We show that under a mild condition, called Slater’s condition, strong Lagrangian duality holds. We introduce the Legendre-Fenchel dual that often arises in Lagrangian duality and opti- mization methods. Finally, we mention the KKT optimality conditions that arise from duality.
+
    
     - number: 6
       title: Gradient Descent
-      description: In this chapter ...
+      description: In this chapter we present gradient descent and show how it can be derived from an optimization viewpoint. Under convexity of the objective, we prove a convergence time bound when the gradient of the function is Lipschitz continuous. Subsequently, we show how to use this continuous optimization method to come up with a fast algorithm for a discrete optimization problem: computing maximum flows in a graph.
    
     - number: 7
       title: Mirror Descent and  Multiplicative Weights Update 
-      description: In this chapter ...
+      description: In this chapter we derive a new optimization algorithm – called mirror descent – via a different local optimization principle. First, the mirror descent algorithm is developed for optimizing convex functions over the probability simplex. Subsequently, we show how to generalize it and, importantly, derive the multiplicative weights update (MWU) method from it. This latter algorithm is then used to develop a fast approximate algo- rithm to solve the bipartite matching problem on graphs.
    
     - number: 8
       title: Accelerated Gradient Descent
-      description: In this chapter ...
+      description: In this chapter we present Nesterov’s accelerated gradient descent algorithm. This algorithm can be viewed as a hybrid of the previously introduced gradient descent and mirror descent methods. We also present an application of it to solving a linear system of equations.
+
    
     - number: 9
       title: Newton’s Method
-      description: In this chapter ...
+      description: In this chapter we begin our journey towards designing algorithms for convex optimization whose number of iterations scale polylogarithmically with the error. As a first step, we de- rive and analyze the classic Newton’s method, which is an example of a second-order optimization method. We argue that Newton’s method can be seen as gradient descent on a Riemannian manifold, which then motivates an affinely invariant analysis of its convergence.
    
     - number: 10
       title: An Interior Point Method for Linear Programming
-      description: In this chapter ...
+      description: In this chapter we build upon Newton’s method and its convergence from the previ- ous chapter to derive a polynomial time algorithm for linear programming. Key to the reduction from constrained to unconstrained optimization is the notion of barrier func- tions and the corresponding central path.
    
     - number: 11
       title: Variants of the Interior Point Method and Self-Concordance
-      description: In this chapter ...
+      description: In this chapter we present various generalizations and extensions of the path following IPM for the case of linear programming. As an application, we derive a fast algorithm for the s-t-minimum cost flow problem. Sub- sequently, we introduce the notion of self-concordance and give an overview of barrier functions for polytopes and more general convex sets.
    
     - number: 12
       title: Ellipsoid Method for Linear Programming
-      description: In this chapter ...
+      description: In this chapter we introduce a class of cutting plane methods for convex optimization and present an analysis of a special case, namely, the ellipsoid method. We then show how to use this ellipsoid method to solve linear programs with exponentially many constraints.
+
    
     - number: 13
       title: Convex Programming using the Ellipsoid Method
-      description: In this chapter ...
+      description: In this chapter we show how to adapt the ellipsoid method to solve general convex programs. As applications we present a polynomial time algorithm for submodular function minimization and a polynomial time algorithm to compute maximum entropy distributions over combinatorial polytopes.
+
    
       
 
