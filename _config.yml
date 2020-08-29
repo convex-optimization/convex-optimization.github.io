@@ -30,7 +30,7 @@ chapters:
 
     - number: 3
       title: Convexity 
-      description: In this chapter we introduce convex sets, various notions of convexity, and show the power that comes along with convexity: convex sets have separating hyperplanes, sub- gradients exist, and locally optimal solutions of convex functions are globally optimal.
+      description: In this chapter we introduce convex sets, various notions of convexity, and show the power that comes along with convexity: convex sets have  separating hyperplanes, sub-gradients exist, and locally optimal solutions of convex functions are globally optimal.
       
     - number: 4
       title: Convex Programming and Efficiency 
@@ -38,7 +38,7 @@ chapters:
       
     - number: 5
       title: Duality and Optimality
-      description: In this chapter we introduce the powerful notion of Lagrangian duality. We show that under a mild condition, called Slater’s condition, strong Lagrangian duality holds. We introduce the Legendre-Fenchel dual that often arises in Lagrangian duality and opti- mization methods. Finally, we mention the KKT optimality conditions that arise from duality.
+      description: In this chapter we introduce the powerful notion of Lagrangian duality. We show that under a mild condition, called Slater’s condition, strong Lagrangian duality holds. We introduce the Legendre-Fenchel dual that often arises in Lagrangian duality and optimization methods. Finally, we mention the KKT optimality conditions that arise from duality.
 
    
     - number: 6
@@ -47,7 +47,7 @@ chapters:
    
     - number: 7
       title: Mirror Descent and  Multiplicative Weights Update 
-      description: In this chapter we derive a new optimization algorithm – called mirror descent – via a different local optimization principle. First, the mirror descent algorithm is developed for optimizing convex functions over the probability simplex. Subsequently, we show how to generalize it and, importantly, derive the multiplicative weights update (MWU) method from it. This latter algorithm is then used to develop a fast approximate algo- rithm to solve the bipartite matching problem on graphs.
+      description: In this chapter we derive a new optimization algorithm – called mirror descent - via a different local optimization principle. First, the mirror descent algorithm is developed for optimizing convex functions over the probability simplex. Subsequently, we show how to generalize it and, importantly, derive the multiplicative weights update (MWU) method from it. This latter algorithm is then used to develop a fast approximate algo- rithm to solve the bipartite matching problem on graphs.
    
     - number: 8
       title: Accelerated Gradient Descent
@@ -60,11 +60,11 @@ chapters:
    
     - number: 10
       title: An Interior Point Method for Linear Programming
-      description: In this chapter we build upon Newton’s method and its convergence from the previ- ous chapter to derive a polynomial time algorithm for linear programming. Key to the reduction from constrained to unconstrained optimization is the notion of barrier func- tions and the corresponding central path.
+      description: In this chapter we build upon Newton’s method and its convergence from the previous chapter to derive a polynomial time algorithm for linear programming. Key to the reduction from constrained to unconstrained optimization is the notion of barrier functions and the corresponding central path.
    
     - number: 11
       title: Variants of the Interior Point Method and Self-Concordance
-      description: In this chapter we present various generalizations and extensions of the path following IPM for the case of linear programming. As an application, we derive a fast algorithm for the s-t-minimum cost flow problem. Sub- sequently, we introduce the notion of self-concordance and give an overview of barrier functions for polytopes and more general convex sets.
+      description: In this chapter we present various generalizations and extensions of the path following IPM for the case of linear programming. As an application, we derive a fast algorithm for the s-t-minimum cost flow problem. Subsequently, we introduce the notion of self-concordance and give an overview of barrier functions for polytopes and more general convex sets.
    
     - number: 12
       title: Ellipsoid Method for Linear Programming
@@ -74,7 +74,6 @@ chapters:
     - number: 13
       title: Convex Programming using the Ellipsoid Method
       description: In this chapter we show how to adapt the ellipsoid method to solve general convex programs. As applications we present a polynomial time algorithm for submodular function minimization and a polynomial time algorithm to compute maximum entropy distributions over combinatorial polytopes.
-
    
       
 
