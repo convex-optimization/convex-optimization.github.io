@@ -30,7 +30,7 @@ chapters:
 
     - number: 3
       title: Convexity 
-      description: In this chapter we introduce convex sets, various notions of convexity, and show the power that comes along with convexity: convex sets have  separating hyperplanes, sub-gradients exist, and locally optimal solutions of convex functions are globally optimal.
+      description: In this chapter we introduce convex sets, various notions of convexity, and show the power that comes along with convexity: convex sets have  separating hyperplanes, subgradients exist, and locally optimal solutions of convex functions are globally optimal.
       
     - number: 4
       title: Convex Programming and Efficiency 
