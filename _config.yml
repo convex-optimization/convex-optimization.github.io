@@ -30,7 +30,7 @@ chapters:
 
     - number: 3
       title: Convexity 
-      description: In this chapter we introduce convex sets, various notions of convexity, and show the power that comes along with convexity: convex sets have  separating hyperplanes, subgradients exist, and locally optimal solutions of convex functions are globally optimal.
+      description: 'In this chapter we introduce convex sets, various notions of convexity, and show the power that comes along with convexity: convex sets have  separating hyperplanes, subgradients exist, and locally optimal solutions of convex functions are globally optimal.'
       
     - number: 4
       title: Convex Programming and Efficiency 
@@ -43,7 +43,7 @@ chapters:
    
     - number: 6
       title: Gradient Descent
-      description: In this chapter we present gradient descent and show how it can be derived from an optimization viewpoint. Under convexity of the objective, we prove a convergence time bound when the gradient of the function is Lipschitz continuous. Subsequently, we show how to use this continuous optimization method to come up with a fast algorithm for a discrete optimization problem: computing maximum flows in a graph.
+      description: 'In this chapter we present gradient descent and show how it can be derived from an optimization viewpoint. Under convexity of the objective, we prove a convergence time bound when the gradient of the function is Lipschitz continuous. Subsequently, we show how to use this continuous optimization method to come up with a fast algorithm for a discrete optimization problem: computing maximum flows in a graph.'
    
     - number: 7
       title: Mirror Descent and  Multiplicative Weights Update 
