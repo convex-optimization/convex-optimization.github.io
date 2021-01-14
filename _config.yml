@@ -60,7 +60,7 @@ chapters:
    
     - number: 9
       title: Newton’s Method
-      description: IWe begin our journey towards designing algorithms for convex optimization whose number of iterations scale polylogarithmically with the error. As a first step, we derive and analyze the classic Newton’s method, which is an example of a second-order method. We argue that Newton’s method can be seen as steepest descent on a Riemannian manifold, which then motivates an affinely invariant analysis of its convergence.
+      description: We begin our journey towards designing algorithms for convex optimization whose number of iterations scale polylogarithmically with the error. As a first step, we derive and analyze the classic Newton’s method, which is an example of a second-order method. We argue that Newton’s method can be seen as steepest descent on a Riemannian manifold, which then motivates an affinely invariant analysis of its convergence.
    
     - number: 10
       title: An Interior Point Method for Linear Programming
