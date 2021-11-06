@@ -189,8 +189,8 @@ errataItems:
     items:
       - number: 1
         location: Equation 11.3 (Page 218)
-        old_text: ⠀$$\mathrm{such\ that}\ \begin{bmatrix}B & 0\\I & I\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}=\begin{bmatrix}b\\u\end{bmatrix}$$
-        new_text: ⠀$$\mathrm{such\ that}\ \begin{bmatrix}B & 0\\I & I\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}=\begin{bmatrix}b\\\rho\end{bmatrix}$$
+        old_text: ⠀$$\begin{bmatrix}B & 0\\I & I\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}=\begin{bmatrix}b\\u\end{bmatrix}$$
+        new_text: ⠀$$\begin{bmatrix}B & 0\\I & I\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}=\begin{bmatrix}b\\\rho\end{bmatrix}$$
       - number: 2
         location: Equation 11.8 (Page 225)
         old_text: ⠀`\tilde{n}_{\eta}(x):=X^2(A^\top (AX^{-2}A^\top)^{-1} AX^2 -I)(\eta c+X^{-1}1)`
