@@ -295,7 +295,7 @@ p > img {
 }
 
 .site-info {
-  float: center;
+  float: left;
 
   @include mobile {
     float: none;
