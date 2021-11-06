@@ -101,10 +101,14 @@ errataItems:
         old_text: ⠀`\sum_{k\geq 3}\nabla^kf(a)[x-a,\ldots,x-a]`
         new_text: ⠀`\sum_{k\geq 3}\frac{1}{k!}\nabla^kf(a)[x-a,\ldots,x-a]`
       - number: 2
+        location: Definition 2.7 (Page 20)
+        old_text: ⠀`A\sum_{k\geq 3}\nabla^kf(a)[x-a,\ldots,x-a]`
+        new_text: ⠀`A\sum_{k\geq 3}\frac{1}{k!}\nabla^kf(a)[x-a,\ldots,x-a]`
+      - number: 3
         location: Exercise 2.1 (a) (Page 29)
         old_text: ⠀`a_1,\ldots,a_m\in\mathbb{Q}^m`
         new_text: ⠀`a_1,\ldots,a_m\in\mathbb{Q}^n`
-      - number: 2
+      - number: 4
         location: Exercise 2.1 (c) (Page 29)
         old_text: ⠀`A` is a symmetric `n\times n` matrix and `X` runs over symmetric matrices
         new_text: ⠀`A` is a real-symmetric `n\times n` matrix and `X` runs over real-symmetric matrices
