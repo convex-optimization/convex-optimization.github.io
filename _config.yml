@@ -136,6 +136,11 @@ errataItems:
         location: Exercise 5.14 (c) (Page 81)
         old_text: positive orthant
         new_text: non-negative orthant
+             - number: 1
+        location: Exercise 5.14 (c) (Page 81)
+        old_text: positive orthant
+        new_text: non-negative orthant
+
 
 
   - number: 6
