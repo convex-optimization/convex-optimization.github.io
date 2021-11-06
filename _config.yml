@@ -24,67 +24,217 @@ authorWebsite: https://www.cs.yale.edu/homes/vishnoi/Home.html
 chapters:
     - number: 1
       title: Bridging continuous and discrete optimization
-      description: We present the interplay between continuous and discrete optimization. The motivating example is that of the maximum flow problem. We also trace the history of linear programming - from the ellipsoid method to modern interior point methods. We end with some of the recent successes of the ellipsoid method for general convex programming problems such as the maximum entropy problem. 
-      
+      location: We present the interplay between continuous and discrete optimization. The motivating example is that of the maximum flow problem. We also trace the history of linear programming - from the ellipsoid method to modern interior point methods. We end with some of the recent successes of the ellipsoid method for general convex programming problems such as the maximum entropy problem.
+
     - number: 2
       title: Preliminaries
-      description: We review the mathematical preliminaries required for this book. These include some standard notion and facts from multivariate calculus, linear algebra, geometry, topology, dynamical systems, and graph theory.
+      location: We review the mathematical preliminaries required for this book. These include some standard notion and facts from multivariate calculus, linear algebra, geometry, topology, dynamical systems, and graph theory.
 
 
     - number: 3
-      title: Convexity 
-      description: 'We introduce convex sets, notions of convexity, and show the power that comes along with convexity: convex sets have separating hyperplanes, subgradients exist, and locally optimal solutions of convex functions are globally optimal.'
-      
+      title: Convexity
+      location: 'We introduce convex sets, notions of convexity, and show the power that comes along with convexity: convex sets have separating hyperplanes, subgradients exist, and locally optimal solutions of convex functions are globally optimal.'
+
     - number: 4
-      title: Convex Optimization and Efficiency 
-      description: We present the notion of convex optimization and discuss formally what it means to solve a convex program efficiently as a function of the representation length of the input and the desired accuracy.
-      
+      title: Convex Optimization and Efficiency
+      location: We present the notion of convex optimization and discuss formally what it means to solve a convex program efficiently as a function of the representation length of the input and the desired accuracy.
+
     - number: 5
       title: Duality and Optimality
-      description: We introduce the notion of Lagrangian duality and show that under a mild condition, called Slater’s condition, strong Lagrangian duality holds. Subsequently, we introduce the Legendre-Fenchel dual that often arises in Lagrangian duality and optimization methods. Finally, we present Kahn-Karush-Tucker (KKT) optimality conditions and their relation to strong duality.
+      location: We introduce the notion of Lagrangian duality and show that under a mild condition, called Slater’s condition, strong Lagrangian duality holds. Subsequently, we introduce the Legendre-Fenchel dual that often arises in Lagrangian duality and optimization methods. Finally, we present Kahn-Karush-Tucker (KKT) optimality conditions and their relation to strong duality.
 
-   
+
     - number: 6
       title: Gradient Descent
-      description: 'We start by presenting the gradient descent method and show how it can be viewed as a steepest descent. Subsequently, we prove a convergence time bound on the gradient descent method when the gradient of the function is Lipschitz continuous. Finally, we use the gradient descent method to come up with a fast algorithm for a discrete optimization problem: computing maximum flow in an undirected graph.'
-   
-    - number: 7
-      title: Mirror Descent and  Multiplicative Weights Update 
-      description: We derive our second algorithm for convex optimization – called the mirror descent method – via a regularization viewpoint. First, the mirror descent algorithm is developed for optimizing convex functions over the probability simplex. Subsequently, we show how to generalize it and, importantly, derive the multiplicative weights update (MWU) method from it. This latter algorithm is then used to develop a fast approximate algorithm to solve the bipartite matching problem on graphs.
+      location: 'We start by presenting the gradient descent method and show how it can be viewed as a steepest descent. Subsequently, we prove a convergence time bound on the gradient descent method when the gradient of the function is Lipschitz continuous. Finally, we use the gradient descent method to come up with a fast algorithm for a discrete optimization problem: computing maximum flow in an undirected graph.'
 
-   
+    - number: 7
+      title: Mirror Descent and  Multiplicative Weights Update
+      location: We derive our second algorithm for convex optimization – called the mirror descent method – via a regularization viewpoint. First, the mirror descent algorithm is developed for optimizing convex functions over the probability simplex. Subsequently, we show how to generalize it and, importantly, derive the multiplicative weights update (MWU) method from it. This latter algorithm is then used to develop a fast approximate algorithm to solve the bipartite matching problem on graphs.
+
+
     - number: 8
       title: Accelerated Gradient Descent
-      description: We present Nesterov’s accelerated gradient descent algorithm. This algorithm can be viewed as a hybrid of the previously introduced gradient descent and mirror descent methods. We also present an application of the accelerated gradient method to solving a linear system of equations.
+      location: We present Nesterov’s accelerated gradient descent algorithm. This algorithm can be viewed as a hybrid of the previously introduced gradient descent and mirror descent methods. We also present an application of the accelerated gradient method to solving a linear system of equations.
 
-   
+
     - number: 9
       title: Newton’s Method
-      description: We begin our journey towards designing algorithms for convex optimization whose number of iterations scale polylogarithmically with the error. As a first step, we derive and analyze the classic Newton’s method, which is an example of a second-order method. We argue that Newton’s method can be seen as steepest descent on a Riemannian manifold, which then motivates an affinely invariant analysis of its convergence.
-   
+      location: We begin our journey towards designing algorithms for convex optimization whose number of iterations scale polylogarithmically with the error. As a first step, we derive and analyze the classic Newton’s method, which is an example of a second-order method. We argue that Newton’s method can be seen as steepest descent on a Riemannian manifold, which then motivates an affinely invariant analysis of its convergence.
+
     - number: 10
       title: An Interior Point Method for Linear Programming
-      description: We build upon Newton’s method and its convergence to derive a polynomial time algorithm for linear programming. Key to the this algorithm is a reduction from constrained to unconstrained optimization using the notion of a barrier function and the corresponding central path.
-   
+      location: We build upon Newton’s method and its convergence to derive a polynomial time algorithm for linear programming. Key to the this algorithm is a reduction from constrained to unconstrained optimization using the notion of a barrier function and the corresponding central path.
+
     - number: 11
       title: Variants of the Interior Point Method and Self-Concordance
-      description: We present various generalizations and extensions of the path following IPM for the case of linear programming. As an application, we derive a fast algorithm for the s-t-minimum cost flow problem. Subsequently, we introduce the notion of self-concordance and give an overview of barrier functions for polytopes and more general convex sets.
-   
+      location: We present various generalizations and extensions of the path following IPM for the case of linear programming. As an application, we derive a fast algorithm for the s-t-minimum cost flow problem. Subsequently, we introduce the notion of self-concordance and give an overview of barrier functions for polytopes and more general convex sets.
+
     - number: 12
       title: Ellipsoid Method for Linear Programming
-      description: We introduce a class of cutting plane methods for convex optimization and present an analysis of a special case, namely, the ellipsoid method. We then show how to use this ellipsoid method to solve linear programs over 0-1-polytopes when we only have access to a separation oracle for the polytope.
+      location: We introduce a class of cutting plane methods for convex optimization and present an analysis of a special case, namely, the ellipsoid method. We then show how to use this ellipsoid method to solve linear programs over 0-1-polytopes when we only have access to a separation oracle for the polytope.
 
-   
+
     - number: 13
       title: Ellipsoid Method for Convex Optimization
-      description: We show how to adapt the ellipsoid method to solve general convex programs. As applications, we present a polynomial time algorithm for submodular function minimization and a polynomial time algorithm to compute maximum entropy distributions over combinatorial polytopes.
+      location: We show how to adapt the ellipsoid method to solve general convex programs. As applications, we present a polynomial time algorithm for submodular function minimization and a polynomial time algorithm to compute maximum entropy distributions over combinatorial polytopes.
 
-   
-      
 
-copyright: This material has been published by Cambridge University Press as Algorithms for Convex Optimization by Nisheeth K. Vishnoi. This pre-publication version is free to view and download for personal use only. Not for re-distribution, re-sale or use in derivative works. &#169; Nisheeth K. Vishnoi 2020.
 
-errata: Feedback, corrections, and comments are welcome and should be emailed to the author. 
+
+copyright: This material will be published by Cambridge University Press as Algorithms for Convex Optimization by Nisheeth K. Vishnoi. This pre-publication version is free to view and download for personal use only. Not for re-distribution, re-sale or use in derivative works. &#169; Nisheeth K. Vishnoi 2020.
+
+errata: Feedback, corrections, and comments are welcome and should be emailed to the author.
+
+errataPage: errata/index.html
+
+errataItems:
+  - number: 1
+    title: Bridging continuous and discrete optimization
+    items:
+
+  - number: 2
+    title: Preliminaries
+    items:
+      - number: 1
+        location: Definition 2.7 (Page 20)
+        old_text: ⠀`\sum_{k\geq 3}\nabla^kf(a)[x-a,\ldots,x-a]`
+        new_text: ⠀`\sum_{k\geq 3}\frac{1}{k!}\nabla^kf(a)[x-a,\ldots,x-a]`
+      - number: 2
+        location: Exercise 2.1 (a) (Page 29)
+        old_text: ⠀`a_1,\ldots,a_m\in\mathbb{Q}^m`
+        new_text: ⠀`a_1,\ldots,a_m\in\mathbb{Q}^n`
+      - number: 2
+        location: Exercise 2.1 (c) (Page 29)
+        old_text: ⠀`A` is a symmetric `n\times n` matrix and `X` runs over symmetric matrices
+        new_text: ⠀`A` is a real-symmetric `n\times n` matrix and `X` runs over real-symmetric matrices
+
+  - number: 3
+    title: Convexity
+    items:
+      - number: 1
+        location: Theorem 3.6 (Page 39) to `f&#58; K\to \mathbb{R}`
+        old_text: ⠀`f&#58; K\to R`
+        new_text: ⠀`f&#58; K\to \mathbb{R}`
+
+  - number: 4
+    title: Convex Optimization and Efficiency
+    items:
+      - number: 1
+        location: Exercise 4.9 (c) (Page 66)
+        old_text: vertex of `P`
+        new_text: vertex of `K`
+      - number: 2
+        location: Exercise 4.11 (c) (Page 67)
+        old_text: polynomial time
+        new_text: polynomial time algorithm
+
+  - number: 5
+    title: Duality and Optimality
+    items:
+      - number: 1
+        location: Exercise 5.14 (c) (Page 81)
+        old_text: positive orthant
+        new_text: non-negative orthant
+
+
+  - number: 6
+    title: Gradient Descent
+    items:
+
+
+  - number: 7
+    title: Mirror Descent and  Multiplicative Weights Update
+    items:
+      - number: 1
+        location: Page 112
+        old_text: we can ignore terms that depend only on `x`
+        new_text: we can ignore terms that depend only on `x^t`
+      - number: 2
+        location: Page 130
+        old_text: ⠀`\alpha_e:= \sum_{e\in N(v)} w_v^t`
+        new_text: ⠀`\alpha_e:= \sum_{v:\ e \in N(v)} w_v^t`
+      - number: 3
+        location: Page 131
+        old_text: ⠀`\frac{1}{T}\cdot \frac{1}{n}\left(\sum_{e:\ v\in e} x_e^t -1\right)\leq \frac{1}{T}\cdot T\cdot 0 + \delta`
+        new_text: ⠀`\frac{1}{T}\cdot \sum_{t=0}^{T-1}\frac{1}{n}\left(\sum_{e:\ v\in e} x_e^t -1\right)\leq \frac{1}{T}\cdot T\cdot 0 + \delta`
+      - number: 4
+        location: Page 134
+        old_text: ⠀`x:= \frac{1}{T}\sum_{t=0}^{T-1}x^i`
+        new_text: ⠀`x:= \frac{1}{T}\sum_{t=0}^{T-1}x^t`
+
+
+  - number: 8
+    title: Accelerated Gradient Descent
+    items:
+
+  - number: 9
+    title: Newton’s Method
+    items:
+
+  - number: 10
+    title: An Interior Point Method for Linear Programming
+    items:
+      - number: 1
+        location: Theorem 10.2 (Page 186)
+        old_text: or terminates stating that the polyhedron is infeasible. The algorithm runs in poly`\left(L,\log\frac{1}{\varepsilon}\right)` time.
+        new_text: The algorithm runs in poly`\left(L,\log\frac{1}{\varepsilon}\right)` time.
+      - number: 2
+        location: Theorem 10.9 (Page 194)
+        old_text: outputs a point `\hat{x}\in P` that satisfies
+        new_text: outputs a point `\hat{x}\in`int`(P)` that satisfies
+      - number: 3
+        location: Proof of Lemma 10.7 (Page 196)
+        old_text: ⠀`n_{\eta'}(x)=H(x)^{-1}\nabla f_{\eta'}(x)`
+        new_text: ⠀`-n_{\eta'}(x)=H(x)^{-1}\nabla f_{\eta'}(x)`
+
+  - number: 11
+    title: Variants of the Interior Point Method and Self-Concordance
+    items:
+      - number: 1
+        location: Equation 11.3 (Page 218)
+        old_text: ⠀$$\mathrm{such\ that}\ \begin{bmatrix}B & 0\\I & I\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}=\begin{bmatrix}b\\u\end{bmatrix}$$
+        new_text: ⠀$$\mathrm{such\ that}\ \begin{bmatrix}B & 0\\I & I\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}=\begin{bmatrix}b\\\rho\end{bmatrix}$$
+      - number: 2
+        location: Equation 11.8 (Page 225)
+        old_text: ⠀`\tilde{n}_{\eta}(x):=X^2(A^\top (AX^{-2}A^\top)^{-1} AX^2 -I)(\eta c+X^{-1}1)`
+        new_text: ⠀`\tilde{n}_{\eta}(x):=X^2(A^\top (AX^{2}A^\top)^{-1} AX^2 -I)(\eta c+X^{-1}1)`
+      - number: 3
+        location: Lemma 11.10 (Page 228)
+        old_text: ⠀`s,t\in G`
+        new_text: ⠀`s,t\in V`
+      - number: 4
+        location: Page 229
+        old_text: ⠀`\frac{F}{2}\leq x_{\hat{i}}\leq F=u_{\hat{i}}-F`
+        new_text: ⠀`\frac{F}{2}\leq x_{\hat{i}}\leq F=\rho_{\hat{i}}-F`
+      - number: 5
+        location: Page 229
+        old_text: ⠀`\min{\frac{1}{2},\frac{F}{2}} \leq y_i`
+        new_text: ⠀`\min{\frac{1}{2},F} \leq y_i`
+      - number: 5
+        location: Page 231
+        old_text: ⠀`||H(x)^{-1}g(x)||_x=g(x)^\top H(x)^{-1} g(x)`
+        new_text: ⠀`||H(x)^{-1}g(x)||_x^2=g(x)^\top H(x)^{-1} g(x)`
+      - number: 6
+        location: Page 231
+        old_text: ⠀`||H(x)^{-1}g(x)||_x=1^\top \Pi 1=||\Pi 1||_2^2\leq ||1||_2^2=m`
+        new_text: ⠀`||H(x)^{-1}g(x)||_x^2=1^\top \Pi 1=||\Pi 1||_2^2\leq ||1||_2^2=m`
+      - number: 6
+        location: Exercise 11.10 (Page 244)
+        old_text: self-concordance implies that for all `x\in K`
+        new_text: self-concordance implies that for all `x\in`int`(K)`
+
+  - number: 12
+    title: Ellipsoid Method for Linear Programming
+    items:
+
+
+
+  - number: 13
+    title: Ellipsoid Method for Convex Optimization
+    items:
+    
+
 
 #
 # Flags below are optional
@@ -98,11 +248,11 @@ footer-links:
   flickr:
   github:
   instagram:
-  linkedin: 
+  linkedin:
   pinterest:
   rss:
   twitter:
-  stackoverflow: 
+  stackoverflow:
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
   playconsole:
@@ -110,7 +260,7 @@ footer-links:
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-disqus: 
+disqus:
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 # google_analytics: UA-43339302-11

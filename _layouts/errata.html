@@ -46,51 +46,52 @@
       <div class="wrapper-masthead">
         <div class="container">
           <header class="masthead clearfix">
+            <!-- <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.baseurl }}{{ site.avatar }}" alt="{{ site.title }}" /></a> -->
 
             <div class="site-info">
-              <h1 class="site-name" style="text-align:center;">
-                <a href="{{ site.baseurl }}/" style="text-align:center;">
-                  <b style="text-align:center">{{ site.name }}</b>
+              <h1 class="site-name" style="text-align:center">
+                <a href="{{ site.baseurl }}/">
+                  <b style="text-align:center;">Errata for Algorithms for Convex Optimization</b>
                 </a>
               </h1>
               <h3 style="text-align:center;"><a href="{{ site.authorWebsite }}">{{ site.author }}</a></h3>
+              <div class="wrapper-main"></div>
             </div>
 
+            <!--<nav>
+              <a href="{{ site.baseurl }}/">Home</a>
+              <a href="{{ site.baseurl }}/getting-started">Getting Started</a>
+              <a href="{{ site.baseurl }}/search">Search</a>
+              <a href="{{ site.baseurl }}/about">About</a>
+            </nav>-->
+          </header>
         </div>
-
       </div>
-
-
 
       <div class="wrapper-main">
         <div id="main" role="main" class="container">
-          {{ site.description }}
-        </div>
-      </div>
-
-
-       <div class="wrapper-main">
+          {{ site.errata }}
+         </div>
         <div id="main" role="main" class="container">
-          <h2> Download</h2>
-          Download the entire book as a <a href="{{ site.pdf }}">pdf</a>
-          <br>
-        </div>
-      </div>
-
-
-      <div class="wrapper-main">
-        <div id="main" role="main" class="container">
-        <h2> Chapters</h2>
+        <h2>First print (2021)</h2>
           <!-- <img src="images/polarization.png" height="64" width="64"/> -->
 
 
 
-          {% for chapter in site.chapters %}
+          {% for chapter in site.errataItems %}
           <div style='width:100%; height:auto;'>
           	<ul>
           		<li> <button class="collapsible"> Chapter {{ chapter.number}} - {{ chapter.title }} </button>
                 <div class="collapsible_content">
-                    <p>{{ chapter.description }}</p>
+                  <ol>
+                  {% for erratum in chapter.items %}
+                    <li>
+                      {{ erratum.location }}<br>
+                      <i>&nbsp; Old text:</i> {{ erratum.old_text }}<br>
+                      <i>New text:</i> {{ erratum.new_text }}<br>
+                    </li>
+                  {% endfor %}
+                  </ol>
                 </div>
 
               </li>
@@ -105,26 +106,18 @@
 
 
 
-      <div class="wrapper-main">
+      <!-- <div class="wrapper-main">
         <div id="main" role="main" class="container">
           <h2> Copyright</h2>
           {{ site.copyright }}
           <br>
         </div>
-      </div>
-
-      <div class="wrapper-main">
-        <div id="main" role="main" class="container">
-          <h2> Errata</h2>
-          <!-- {{ site.errata }} -->
-          A list of known erratum are available <a href="{{ site.errataPage }}">here</a>.
-          <!--  -->
-          Further, feedback, corrections, and comments are welcome and should be emailed to the author.
-         </div>
-      </div>
+      </div> -->
 
 
-       <div class="wrapper-main">
+
+
+       <!-- <div class="wrapper-main">
         <div id="main" role="main" class="container">
           <h2> Other books by the author</h2>
          <ul>
@@ -136,16 +129,17 @@
               </li>
           	</ul>
          </div>
-      </div>
-
-        <div class="wrapper-main">
+      </div> -->
+      <div class="wrapper-main"></div>
+      <div class="wrapper-main"></div>
+      <!-- <div class="wrapper-main">
         <div id="main" role="main" class="container">
-          <h2> About the author</h2>
-          {{ site.bio }}
+            <h2> About the author</h2>
+            {{ site.bio }}
            <div style="margin-bottom:3cm;">
-      </div>
+           </div>
         </div>
-      </div>
+      </div> -->
 
 
       <div class="wrapper-footer">
@@ -174,9 +168,16 @@
         }
       });
     }
+
+
     </script>
 
 </html>
+<script>
+MathJax = {
+  loader: {load: ['input/asciimath', 'output/chtml']}
+}
+</script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
