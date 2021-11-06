@@ -24,61 +24,58 @@ authorWebsite: https://www.cs.yale.edu/homes/vishnoi/Home.html
 chapters:
     - number: 1
       title: Bridging continuous and discrete optimization
-      location: We present the interplay between continuous and discrete optimization. The motivating example is that of the maximum flow problem. We also trace the history of linear programming - from the ellipsoid method to modern interior point methods. We end with some of the recent successes of the ellipsoid method for general convex programming problems such as the maximum entropy problem.
+      description: We present the interplay between continuous and discrete optimization. The motivating example is that of the maximum flow problem. We also trace the history of linear programming - from the ellipsoid method to modern interior point methods. We end with some of the recent successes of the ellipsoid method for general convex programming problems such as the maximum entropy problem.
 
     - number: 2
       title: Preliminaries
-      location: We review the mathematical preliminaries required for this book. These include some standard notion and facts from multivariate calculus, linear algebra, geometry, topology, dynamical systems, and graph theory.
-
+      description: We review the mathematical preliminaries required for this book. These include some standard notion and facts from multivariate calculus, linear algebra, geometry, topology, dynamical systems, and graph theory.
 
     - number: 3
       title: Convexity
-      location: 'We introduce convex sets, notions of convexity, and show the power that comes along with convexity: convex sets have separating hyperplanes, subgradients exist, and locally optimal solutions of convex functions are globally optimal.'
+      description: 'We introduce convex sets, notions of convexity, and show the power that comes along with convexity: convex sets have separating hyperplanes, subgradients exist, and locally optimal solutions of convex functions are globally optimal.'
 
     - number: 4
       title: Convex Optimization and Efficiency
-      location: We present the notion of convex optimization and discuss formally what it means to solve a convex program efficiently as a function of the representation length of the input and the desired accuracy.
+      description: We present the notion of convex optimization and discuss formally what it means to solve a convex program efficiently as a function of the representation length of the input and the desired accuracy.
 
     - number: 5
       title: Duality and Optimality
-      location: We introduce the notion of Lagrangian duality and show that under a mild condition, called Slater’s condition, strong Lagrangian duality holds. Subsequently, we introduce the Legendre-Fenchel dual that often arises in Lagrangian duality and optimization methods. Finally, we present Kahn-Karush-Tucker (KKT) optimality conditions and their relation to strong duality.
+      description: We introduce the notion of Lagrangian duality and show that under a mild condition, called Slater’s condition, strong Lagrangian duality holds. Subsequently, we introduce the Legendre-Fenchel dual that often arises in Lagrangian duality and optimization methods. Finally, we present Kahn-Karush-Tucker (KKT) optimality conditions and their relation to strong duality.
 
 
     - number: 6
       title: Gradient Descent
-      location: 'We start by presenting the gradient descent method and show how it can be viewed as a steepest descent. Subsequently, we prove a convergence time bound on the gradient descent method when the gradient of the function is Lipschitz continuous. Finally, we use the gradient descent method to come up with a fast algorithm for a discrete optimization problem: computing maximum flow in an undirected graph.'
+      description: 'We start by presenting the gradient descent method and show how it can be viewed as a steepest descent. Subsequently, we prove a convergence time bound on the gradient descent method when the gradient of the function is Lipschitz continuous. Finally, we use the gradient descent method to come up with a fast algorithm for a discrete optimization problem: computing maximum flow in an undirected graph.'
 
     - number: 7
       title: Mirror Descent and  Multiplicative Weights Update
-      location: We derive our second algorithm for convex optimization – called the mirror descent method – via a regularization viewpoint. First, the mirror descent algorithm is developed for optimizing convex functions over the probability simplex. Subsequently, we show how to generalize it and, importantly, derive the multiplicative weights update (MWU) method from it. This latter algorithm is then used to develop a fast approximate algorithm to solve the bipartite matching problem on graphs.
+      description: We derive our second algorithm for convex optimization – called the mirror descent method – via a regularization viewpoint. First, the mirror descent algorithm is developed for optimizing convex functions over the probability simplex. Subsequently, we show how to generalize it and, importantly, derive the multiplicative weights update (MWU) method from it. This latter algorithm is then used to develop a fast approximate algorithm to solve the bipartite matching problem on graphs.
 
 
     - number: 8
       title: Accelerated Gradient Descent
-      location: We present Nesterov’s accelerated gradient descent algorithm. This algorithm can be viewed as a hybrid of the previously introduced gradient descent and mirror descent methods. We also present an application of the accelerated gradient method to solving a linear system of equations.
+      description: We present Nesterov’s accelerated gradient descent algorithm. This algorithm can be viewed as a hybrid of the previously introduced gradient descent and mirror descent methods. We also present an application of the accelerated gradient method to solving a linear system of equations.
 
 
     - number: 9
       title: Newton’s Method
-      location: We begin our journey towards designing algorithms for convex optimization whose number of iterations scale polylogarithmically with the error. As a first step, we derive and analyze the classic Newton’s method, which is an example of a second-order method. We argue that Newton’s method can be seen as steepest descent on a Riemannian manifold, which then motivates an affinely invariant analysis of its convergence.
+      description: We begin our journey towards designing algorithms for convex optimization whose number of iterations scale polylogarithmically with the error. As a first step, we derive and analyze the classic Newton’s method, which is an example of a second-order method. We argue that Newton’s method can be seen as steepest descent on a Riemannian manifold, which then motivates an affinely invariant analysis of its convergence.
 
     - number: 10
       title: An Interior Point Method for Linear Programming
-      location: We build upon Newton’s method and its convergence to derive a polynomial time algorithm for linear programming. Key to the this algorithm is a reduction from constrained to unconstrained optimization using the notion of a barrier function and the corresponding central path.
+      description: We build upon Newton’s method and its convergence to derive a polynomial time algorithm for linear programming. Key to the this algorithm is a reduction from constrained to unconstrained optimization using the notion of a barrier function and the corresponding central path.
 
     - number: 11
       title: Variants of the Interior Point Method and Self-Concordance
-      location: We present various generalizations and extensions of the path following IPM for the case of linear programming. As an application, we derive a fast algorithm for the s-t-minimum cost flow problem. Subsequently, we introduce the notion of self-concordance and give an overview of barrier functions for polytopes and more general convex sets.
+      description: We present various generalizations and extensions of the path following IPM for the case of linear programming. As an application, we derive a fast algorithm for the s-t-minimum cost flow problem. Subsequently, we introduce the notion of self-concordance and give an overview of barrier functions for polytopes and more general convex sets.
 
     - number: 12
       title: Ellipsoid Method for Linear Programming
-      location: We introduce a class of cutting plane methods for convex optimization and present an analysis of a special case, namely, the ellipsoid method. We then show how to use this ellipsoid method to solve linear programs over 0-1-polytopes when we only have access to a separation oracle for the polytope.
-
+      description: We introduce a class of cutting plane methods for convex optimization and present an analysis of a special case, namely, the ellipsoid method. We then show how to use this ellipsoid method to solve linear programs over 0-1-polytopes when we only have access to a separation oracle for the polytope.
 
     - number: 13
       title: Ellipsoid Method for Convex Optimization
-      location: We show how to adapt the ellipsoid method to solve general convex programs. As applications, we present a polynomial time algorithm for submodular function minimization and a polynomial time algorithm to compute maximum entropy distributions over combinatorial polytopes.
-
+      description: We show how to adapt the ellipsoid method to solve general convex programs. As applications, we present a polynomial time algorithm for submodular function minimization and a polynomial time algorithm to compute maximum entropy distributions over combinatorial polytopes.
 
 
 
