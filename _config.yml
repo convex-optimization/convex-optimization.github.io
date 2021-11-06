@@ -114,7 +114,7 @@ errataItems:
     title: Convexity
     items:
       - number: 1
-        location: Theorem 3.6 (Page 39) to `f&#58; K\to \mathbb{R}`
+        location: Theorem 3.6 (Page 39) 
         old_text: ⠀`f&#58; K\to R`
         new_text: ⠀`f&#58; K\to \mathbb{R}`
 
