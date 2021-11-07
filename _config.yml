@@ -147,8 +147,8 @@ errataItems:
     items:
       - number: 1
         location: Last equation on Page 92
-        old_text: ⠀`R_t \leq f(x_t)-f(x^\star)'
-        new_text: ⠀`R_t = f(x_t)-f(x^\star)'
+        old_text: ⠀`R_t \leq `
+        new_text: ⠀`R_t =`
 
 
   - number: 7
