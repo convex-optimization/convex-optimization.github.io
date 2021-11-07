@@ -160,8 +160,8 @@ errataItems:
         new_text: we can ignore terms that depend only on `x^t`
       - number: 2
         location: Page 112
-        old_text: ⠀`f(x^t)` may be more than `f(x^{t+1})'
-        new_text: ⠀`f(x^{t+1})` may be more than `f(x^{t})'
+        old_text: ⠀`f(x^t)` may be more than `f(x^{t+1})`
+        new_text: ⠀`f(x^{t+1})` may be more than `f(x^{t})`
       - number: 3
         location: Page 130
         old_text: ⠀`\alpha_e:= \sum_{e\in N(v)} w_v^t`
