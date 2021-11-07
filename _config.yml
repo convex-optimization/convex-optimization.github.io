@@ -118,10 +118,14 @@ errataItems:
     title: Convex Optimization and Efficiency
     items:
       - number: 1
+        location: Section 4.1.1 (Page 50)
+        old_text: ⠀`b \in \mathbb{R}^n`
+        new_text: ⠀`b \in \mathbb{R}^m`
+      - number: 2
         location: Exercise 4.9 (c) (Page 66)
         old_text: vertex of `P`
         new_text: vertex of `K`
-      - number: 2
+      - number: 3
         location: Exercise 4.11 (c) (Page 67)
         old_text: polynomial time
         new_text: polynomial time algorithm
