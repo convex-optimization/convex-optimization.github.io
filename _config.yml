@@ -134,6 +134,10 @@ errataItems:
     title: Duality and Optimality
     items:
       - number: 1
+        location: Theorem 5.5 (Page 72)
+        old_text: Suppose that the functions `f,f_1,f_2,\ldots,f_m` and ...
+        new_text: Suppose that the functions `f,f_1,f_2,\ldots,f_m` are convex and ...
+      - number: 2
         location: Exercise 5.14 (c) (Page 81)
         old_text: positive orthant
         new_text: non-negative orthant
@@ -141,6 +145,10 @@ errataItems:
   - number: 6
     title: Gradient Descent
     items:
+      - number: 1
+        location: Last equation on Page 92
+        old_text: ⠀`R_t \leq f(x_t)-f(x^\star)'
+        new_text: ⠀`R_t = f(x_t)-f(x^\star)'
 
 
   - number: 7
@@ -151,14 +159,18 @@ errataItems:
         old_text: we can ignore terms that depend only on `x`
         new_text: we can ignore terms that depend only on `x^t`
       - number: 2
+        location: Page 112
+        old_text:⠀`f(x^t)` may be more than `f(x^{t+1})'
+        new_text:⠀`f(x^{t+1})` may be more than `f(x^{t})'
+      - number: 3
         location: Page 130
         old_text: ⠀`\alpha_e:= \sum_{e\in N(v)} w_v^t`
         new_text: ⠀`\alpha_e:= \sum_{v:\ e \in N(v)} w_v^t`
-      - number: 3
+      - number: 4
         location: Page 131
         old_text: ⠀`\frac{1}{T}\cdot \frac{1}{n}\left(\sum_{e:\ v\in e} x_e^t -1\right)\leq \frac{1}{T}\cdot T\cdot 0 + \delta`
         new_text: ⠀`\frac{1}{T}\cdot \sum_{t=0}^{T-1}\frac{1}{n}\left(\sum_{e:\ v\in e} x_e^t -1\right)\leq \frac{1}{T}\cdot T\cdot 0 + \delta`
-      - number: 4
+      - number: 5
         location: Page 134
         old_text: ⠀`x:= \frac{1}{T}\sum_{t=0}^{T-1}x^i`
         new_text: ⠀`x:= \frac{1}{T}\sum_{t=0}^{T-1}x^t`
