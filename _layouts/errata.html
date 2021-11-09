@@ -76,21 +76,12 @@
         <h2>First print (2021)</h2>
           <!-- <img src="images/polarization.png" height="64" width="64"/> -->
 
-
-
-          {% for chapter in site.errataItems %}
           <div style='width:100%; height:auto;'>
           	<ul>
-          		<li> <button class="collapsible"> Chapter {{ chapter.number}} - {{ chapter.title }} </button>
+          		<li> <button class="collapsible"> Chapter 1 - Bridging continuous and discrete optimization </button>
                 <div class="collapsible_content">
                   <ol>
-                  {% for erratum in chapter.items %}
-                    <li>
-                      {{ erratum.location }}<br>
-                      <i>&nbsp; Old text:</i> {{ erratum.old_text }}<br>
-                      <i>New text:</i> {{ erratum.new_text }}<br>
-                    </li>
-                  {% endfor %}
+
                   </ol>
                 </div>
 
@@ -98,7 +89,329 @@
           	</ul>
           </div>
 
-          {% endfor %}
+
+          <div style='width:100%; height:auto;'>
+          	<ul>
+          		<li> <button class="collapsible"> Chapter 2 - Preliminaries </button>
+                <div class="collapsible_content">
+                  <ol>
+
+                    <li>
+                      Definition 2.7 (Page 20)<br>
+                      <i>&nbsp; Old text:</i> `\sum_{k\geq 3}\nabla^kf(a)[x-a,\ldots,x-a]`<br>
+                      <i>New text:</i> `\sum_{k\geq 3}\frac{1}{k!}\nabla^kf(a)[x-a,\ldots,x-a]`<br>
+                    </li>
+
+                    <li>
+                      Exercise 2.1 (a) (Page 29)<br>
+                      <i>&nbsp; Old text:</i> `a_1,\ldots,a_m\in\mathbb{Q}^m`<br>
+                      <i>New text:</i> `a_1,\ldots,a_m\in\mathbb{Q}^n`<br>
+                    </li>
+
+                    <li>
+                      Exercise 2.1 (c) (Page 29)<br>
+                      <i>&nbsp; Old text:</i> `A` is a symmetric `n\times n` matrix and `X` runs over symmetric matrices<br>
+                      <i>New text:</i> `A` is a real-symmetric `n\times n` matrix and `X` runs over real-symmetric matrices<br>
+                    </li>
+
+                  </ol>
+                </div>
+
+              </li>
+          	</ul>
+          </div>
+
+
+          <div style='width:100%; height:auto;'>
+          	<ul>
+          		<li> <button class="collapsible"> Chapter 3 - Convexity </button>
+                <div class="collapsible_content">
+                  <ol>
+
+                    <li>
+                      Theorem 3.6 (Page 39)<br>
+                      <i>&nbsp; Old text:</i> `f&#58; K\to R`<br>
+                      <i>New text:</i> `f&#58; K\to \mathbb{R}`<br>
+                    </li>
+
+                  </ol>
+                </div>
+
+              </li>
+          	</ul>
+          </div>
+
+
+          <div style='width:100%; height:auto;'>
+          	<ul>
+          		<li> <button class="collapsible"> Chapter 4 - Convex Optimization and Efficiency </button>
+                <div class="collapsible_content">
+                  <ol>
+
+                    <li>
+                      Section 4.1.1 (Page 50)<br>
+                      <i>&nbsp; Old text:</i> `b \in \mathbb{R}^n`<br>
+                      <i>New text:</i> `b \in \mathbb{R}^m`<br>
+                    </li>
+
+                    <li>
+                      Exercise 4.9 (c) (Page 66)<br>
+                      <i>&nbsp; Old text:</i> vertex of `P`<br>
+                      <i>New text:</i> vertex of `K`<br>
+                    </li>
+
+                    <li>
+                      Exercise 4.11 (c) (Page 67)<br>
+                      <i>&nbsp; Old text:</i> polynomial time<br>
+                      <i>New text:</i> polynomial time algorithm<br>
+                    </li>
+
+                  </ol>
+                </div>
+
+              </li>
+          	</ul>
+          </div>
+
+
+          <div style='width:100%; height:auto;'>
+          	<ul>
+          		<li> <button class="collapsible"> Chapter 5 - Duality and Optimality </button>
+                <div class="collapsible_content">
+                  <ol>
+
+                    <li>
+                      Theorem 5.5 (Page 72)<br>
+                      <i>&nbsp; Old text:</i> Suppose that the functions `f,f_1,f_2,\ldots,f_m` and ...<br>
+                      <i>New text:</i> Suppose that the functions `f,f_1,f_2,\ldots,f_m` are convex and ...<br>
+                    </li>
+
+                    <li>
+                      Exercise 5.14 (c) (Page 81)<br>
+                      <i>&nbsp; Old text:</i> positive orthant<br>
+                      <i>New text:</i> non-negative orthant<br>
+                    </li>
+
+                  </ol>
+                </div>
+
+              </li>
+          	</ul>
+          </div>
+
+
+          <div style='width:100%; height:auto;'>
+          	<ul>
+          		<li> <button class="collapsible"> Chapter 6 - Gradient Descent </button>
+                <div class="collapsible_content">
+                  <ol>
+
+                    <li>
+                      Last equation on Page 92<br>
+                      <i>&nbsp; Old text:</i> `R_t \leq `<br>
+                      <i>New text:</i> `R_t =`<br>
+                    </li>
+
+                  </ol>
+                </div>
+
+              </li>
+          	</ul>
+          </div>
+
+
+          <div style='width:100%; height:auto;'>
+          	<ul>
+          		<li> <button class="collapsible"> Chapter 7 - Mirror Descent and  Multiplicative Weights Update </button>
+                <div class="collapsible_content">
+                  <ol>
+
+                    <li>
+                      Page 112<br>
+                      <i>&nbsp; Old text:</i> we can ignore terms that depend only on `x`<br>
+                      <i>New text:</i> we can ignore terms that depend only on `x^t`<br>
+                    </li>
+
+                    <li>
+                      Page 112<br>
+                      <i>&nbsp; Old text:</i> `f(x^t)` may be more than `f(x^{t+1})`<br>
+                      <i>New text:</i> `f(x^{t+1})` may be more than `f(x^{t})`<br>
+                    </li>
+
+                    <li>
+                      Page 130<br>
+                      <i>&nbsp; Old text:</i> `\alpha_e:= \sum_{e\in N(v)} w_v^t`<br>
+                      <i>New text:</i> `\alpha_e:= \sum_{v:\ e \in N(v)} w_v^t`<br>
+                    </li>
+
+                    <li>
+                      Page 131<br>
+                      <i>&nbsp; Old text:</i> `\frac{1}{T}\cdot \frac{1}{n}\left(\sum_{e:\ v\in e} x_e^t -1\right)\leq \frac{1}{T}\cdot T\cdot 0 + \delta`<br>
+                      <i>New text:</i> `\frac{1}{T}\cdot \sum_{t=0}^{T-1}\frac{1}{n}\left(\sum_{e:\ v\in e} x_e^t -1\right)\leq \frac{1}{T}\cdot T\cdot 0 + \delta`<br>
+                    </li>
+
+                    <li>
+                      Page 134<br>
+                      <i>&nbsp; Old text:</i> `x:= \frac{1}{T}\sum_{t=0}^{T-1}x^i`<br>
+                      <i>New text:</i> `x:= \frac{1}{T}\sum_{t=0}^{T-1}x^t`<br>
+                    </li>
+
+                  </ol>
+                </div>
+
+              </li>
+          	</ul>
+          </div>
+
+
+          <div style='width:100%; height:auto;'>
+          	<ul>
+          		<li> <button class="collapsible"> Chapter 8 - Accelerated Gradient Descent </button>
+                <div class="collapsible_content">
+                  <ol>
+
+                  </ol>
+                </div>
+
+              </li>
+          	</ul>
+          </div>
+
+
+          <div style='width:100%; height:auto;'>
+          	<ul>
+          		<li> <button class="collapsible"> Chapter 9 - Newton’s Method </button>
+                <div class="collapsible_content">
+                  <ol>
+
+                  </ol>
+                </div>
+
+              </li>
+          	</ul>
+          </div>
+
+
+          <div style='width:100%; height:auto;'>
+          	<ul>
+          		<li> <button class="collapsible"> Chapter 10 - An Interior Point Method for Linear Programming </button>
+                <div class="collapsible_content">
+                  <ol>
+
+                    <li>
+                      Theorem 10.2 (Page 186)<br>
+                      <i>&nbsp; Old text:</i> or terminates stating that the polyhedron is infeasible. The algorithm runs in poly`\left(L,\log\frac{1}{\varepsilon}\right)` time.<br>
+                      <i>New text:</i> The algorithm runs in poly`\left(L,\log\frac{1}{\varepsilon}\right)` time.<br>
+                    </li>
+
+                    <li>
+                      Theorem 10.9 (Page 194)<br>
+                      <i>&nbsp; Old text:</i> outputs a point `\hat{x}\in P` that satisfies<br>
+                      <i>New text:</i> outputs a point `\hat{x}\in`int`(P)` that satisfies<br>
+                    </li>
+
+                    <li>
+                      Proof of Lemma 10.7 (Page 196)<br>
+                      <i>&nbsp; Old text:</i> `n_{\eta'}(x)=H(x)^{-1}\nabla f_{\eta'}(x)`<br>
+                      <i>New text:</i> `-n_{\eta'}(x)=H(x)^{-1}\nabla f_{\eta'}(x)`<br>
+                    </li>
+
+                  </ol>
+                </div>
+
+              </li>
+          	</ul>
+          </div>
+
+
+          <div style='width:100%; height:auto;'>
+          	<ul>
+          		<li> <button class="collapsible"> Chapter 11 - Variants of the Interior Point Method and Self-Concordance </button>
+                <div class="collapsible_content">
+                  <ol>
+
+                    <li>
+                      Equation 11.3 (Page 218)<br>
+                      <i>&nbsp; Old text:</i> $$\begin{bmatrix}B & 0\\I & I\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}=\begin{bmatrix}b\\u\end{bmatrix}$$<br>
+                      <i>New text:</i> $$\begin{bmatrix}B & 0\\I & I\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}=\begin{bmatrix}b\\\rho\end{bmatrix}$$<br>
+                    </li>
+
+                    <li>
+                      Equation 11.8 (Page 225)<br>
+                      <i>&nbsp; Old text:</i> `\tilde{n}_{\eta}(x):=X^2(A^\top (AX^{-2}A^\top)^{-1} AX^2 -I)(\eta c+X^{-1}1)`<br>
+                      <i>New text:</i> `\tilde{n}_{\eta}(x):=X^2(A^\top (AX^{2}A^\top)^{-1} AX^2 -I)(\eta c+X^{-1}1)`<br>
+                    </li>
+
+                    <li>
+                      Lemma 11.10 (Page 228)<br>
+                      <i>&nbsp; Old text:</i> `s,t\in G`<br>
+                      <i>New text:</i> `s,t\in V`<br>
+                    </li>
+
+                    <li>
+                      Page 229<br>
+                      <i>&nbsp; Old text:</i> `\frac{F}{2}\leq x_{\hat{i}}\leq F=u_{\hat{i}}-F`<br>
+                      <i>New text:</i> `\frac{F}{2}\leq x_{\hat{i}}\leq F=\rho_{\hat{i}}-F`<br>
+                    </li>
+
+                    <li>
+                      Page 229<br>
+                      <i>&nbsp; Old text:</i> `\min{\frac{1}{2},\frac{F}{2}} \leq y_i`<br>
+                      <i>New text:</i> `\min{\frac{1}{2},F} \leq y_i`<br>
+                    </li>
+
+                    <li>
+                      Page 231<br>
+                      <i>&nbsp; Old text:</i> `||H(x)^{-1}g(x)||_x=g(x)^\top H(x)^{-1} g(x)`<br>
+                      <i>New text:</i> `||H(x)^{-1}g(x)||_x^2=g(x)^\top H(x)^{-1} g(x)`<br>
+                    </li>
+
+                    <li>
+                      Page 231<br>
+                      <i>&nbsp; Old text:</i> `||H(x)^{-1}g(x)||_x=1^\top \Pi 1=||\Pi 1||_2^2\leq ||1||_2^2=m`<br>
+                      <i>New text:</i> `||H(x)^{-1}g(x)||_x^2=1^\top \Pi 1=||\Pi 1||_2^2\leq ||1||_2^2=m`<br>
+                    </li>
+
+                    <li>
+                      Exercise 11.10 (Page 244)<br>
+                      <i>&nbsp; Old text:</i> self-concordance implies that for all `x\in K`<br>
+                      <i>New text:</i> self-concordance implies that for all `x\in`int`(K)`<br>
+                    </li>
+
+                  </ol>
+                </div>
+
+              </li>
+          	</ul>
+          </div>
+
+
+          <div style='width:100%; height:auto;'>
+          	<ul>
+          		<li> <button class="collapsible"> Chapter 12 - Ellipsoid Method for Linear Programming </button>
+                <div class="collapsible_content">
+                  <ol>
+
+                  </ol>
+                </div>
+
+              </li>
+          	</ul>
+          </div>
+
+
+          <div style='width:100%; height:auto;'>
+          	<ul>
+          		<li> <button class="collapsible"> Chapter 13 - Ellipsoid Method for Convex Optimization </button>
+                <div class="collapsible_content">
+                  <ol>
+
+                  </ol>
+                </div>
+
+              </li>
+          	</ul>
+          </div>
 
         </div>
       </div>
@@ -180,4 +493,3 @@ MathJax = {
 </script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
