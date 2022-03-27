@@ -70,6 +70,8 @@
 
       <div class="wrapper-main">
         <div id="main" role="main" class="container">
+          This errata refers to the printed edition of the book, available <a href=https://www.amazon.com/Algorithms-Convex-Optimization-Nisheeth-Vishnoi/dp/1108741770>here</a> and <a href=https://www.cambridge.org/core/books/algorithms-for-convex-optimization/8B5EEAB41F6382E8389AF055F257F233>here</a>.
+          The author would like to thank Sergio Cabello and Anay Mehrotra for their contributions to this errata.
           {{ site.errata }}
          </div>
         <div id="main" role="main" class="container">
@@ -100,6 +102,12 @@
                       Definition 2.7 (Page 20)<br>
                       <i>&nbsp; Old text:</i> `\sum_{k\geq 3}\nabla^kf(a)[x-a,\ldots,x-a]`<br>
                       <i>New text:</i> `\sum_{k\geq 3}\frac{1}{k!}\nabla^kf(a)[x-a,\ldots,x-a]`<br>
+                    </li>
+                    
+                    <li>
+                      Page 20:<br>
+                      <i>&nbsp; Old text:</i> `\left\{\alpha_0 + \sum_{i=1}^k alpha_i v_i \colon \alpha_0,\alpha_1,\dots,\alpha_k\in \mathbb{R} \right\}`<br>
+                      <i>New text:</i> `\left\{v_0 + \sum_{i=1}^k alpha_i v_i \colon v_0\in \R^n,\ \ \alpha_1,\dots,\alpha_k\in \mathbb{R} \right\}`<br>
                     </li>
 
                     <li>
@@ -238,6 +246,13 @@
           		<li> <button class="collapsible"> Chapter 6 - Gradient Descent </button>
                 <div class="collapsible_content">
                   <ul>
+                 
+                    <li>
+                      Page 91<br>
+                      <i>The last inequality on this page is an equality</i>
+                    </li>
+
+
 
                     <li>
                       Last equation on Page 92<br>
@@ -245,7 +260,7 @@
                       <i>New text:</i> `R_t =`<br>
                     </li>
 
-                          <li>              
+                    <li>              
               Exercise 6.5 (Page 102) <br>
               <i>&nbsp; Old text:</i> which satisfies for every `x\in \mathbb{R}^n`, one has `mI\preceq \nabla^2 f(x)\preceq MI` <br>
                       <i>New text:</i> which satisfies for every `x\in \mathbb{R}^n`, `mI\preceq \nabla^2 f(x)\preceq MI` <br>   
@@ -279,11 +294,22 @@
                       <i>&nbsp; Old text:</i> `f(x^t)` may be more than `f(x^{t+1})`<br>
                       <i>New text:</i> `f(x^{t+1})` may be more than `f(x^{t})`<br>
                     </li>
-
+                    
+                    <li>
+                      Lemma 7.4 (Page 115)<br>
+                      <i>In item 2, drop “for all `i=1,2,…,n`“ at the end</i>
+                    </li>
+                    
+                  
                     <li>
                       Page 130<br>
                       <i>&nbsp; Old text:</i> `\alpha_e:= \sum_{e\in N(v)} w_v^t`<br>
                       <i>New text:</i> `\alpha_e:= \sum_{v:\ e \in N(v)} w_v^t`<br>
+                    </li>
+                    
+                    <li>
+                      Page 131<br>
+                      <i>In the first two inequalities replace `x_e` by `x_e^t`</i>
                     </li>
 
                     <li>
@@ -338,6 +364,12 @@ $$-\varepsilon \sum_{t=0}^{T-1} g_i^t - \ln{n} \leq -\frac{\varepsilon}{1-n\vare
           		<li> <button class="collapsible"> Chapter 8 - Accelerated Gradient Descent </button>
                 <div class="collapsible_content">
                   <ul>
+                    
+                    <li>              
+                      Equation 8.15 (Page 147)<br>
+                      <i>In this equation, also define `\lambda_t:= (1-\gamma_t)\lambda_{t-1}`</i><br>
+                    </li>
+
                     
                      <li>              
               Exercise 8.3 (Page 157) <br>
@@ -426,7 +458,12 @@ $$-\varepsilon \sum_{t=0}^{T-1} g_i^t - \ln{n} \leq -\frac{\varepsilon}{1-n\vare
                     </li>
 
                     <li>
-                      Theorem 10.9 (Page 194)<br>
+                      Lemma 10.9 (Page 194)<br>
+                      <i>Let `x_T` and `\eta_T` be the variables defined in Algorithm 8</i><br>
+                    </li>
+
+                    <li>
+                      Theorem 10.10 (Page 194)<br>
                       <i>&nbsp; Old text:</i> outputs a point `\hat{x}\in P` that satisfies<br>
                       <i>New text:</i> outputs a point `\hat{x}\in`int`(P)` that satisfies<br>
                     </li>
@@ -442,10 +479,6 @@ $$-\varepsilon \sum_{t=0}^{T-1} g_i^t - \ln{n} \leq -\frac{\varepsilon}{1-n\vare
                       <i>&nbsp; Old text:</i> For any `\eta>0` denote<br>
                       <i>New text:</i> For any `\eta>0` and `x\in \mathbb{R}^n` denote<br>
                     </li>
-
-                    
-
-
 
                     
                   </ul>
@@ -543,6 +576,12 @@ $$-\varepsilon \sum_{t=0}^{T-1} g_i^t - \ln{n} \leq -\frac{\varepsilon}{1-n\vare
               <i>&nbsp; Old text:</i> A number `u` such that `u\leq y^\star+\varepsilon` <br>
                       <i>New text:</i> A number `u` such that `y^\star \leq u\leq y^\star+\varepsilon` <br>   
                     </li>
+                    
+                    <li>              
+                      Algorithm 10 (Page 255) <br>
+                      <i>Before Line 1 add “Initialize `t=0`” and after Line 9 add “Set `t:=t+1`”</i><br>
+                    </li>
+
                     
                        <li>              
               Proof of Theorem 12.7 (Page 256) <br>
